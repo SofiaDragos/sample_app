@@ -28,6 +28,7 @@ gem 'guard', '2.15.0'
 gem 'guard-minitest', '2.4.6'
 end
 group :production do
+gem 'rails_12factor', '0.0.2'
 gem 'pg', '1.1.4'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
