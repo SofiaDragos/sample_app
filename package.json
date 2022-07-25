@@ -14,7 +14,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node app/javascript/channels/index.js",
     "build": "webpack",
     "heroku-postbuild": "echo Skip build on Heroku"
   },
