@@ -1,5 +1,5 @@
 {
-  "name": "sample_app",
+  "name": "toy_app",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
@@ -13,5 +13,16 @@
   "devDependencies": {
     "webpack-dev-server": "^4.9.3"
   },
-  "heroku-run-build-script": true
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "npm": "8.11.0",
+    "node": "16.16.0"
+  }
 }
