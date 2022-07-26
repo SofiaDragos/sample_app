@@ -8,7 +8,6 @@ gem 'sass-rails', '5.1.0'
 gem 'webpacker', '4.0.7'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder', '2.9.1'
-gem 'mimemagic','~> 0.3.10'
 gem 'bootsnap', '1.4.5', require: false
 group :development, :test do
 gem 'sqlite3', '1.4.1'
